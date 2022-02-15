@@ -1,0 +1,58 @@
+.mic{
+    background-image: url(micro.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    width: 300px;
+    background-size: 10px;
+}
+header{
+text-align: right;
+  
+}
+body{
+   
+  box-sizing: border-box;
+}
+.centre{
+    text-align: center;
+    padding-top: 20%;
+}
+.ro{
+background-color: rgb(155, 155, 151);
+}
+footer{
+    background-color:rgb(155, 155, 151);
+    margin-top: 500px;
+}
+.droite{
+    text-align: left;
+}
+
+.do{
+display: flex;
+justify-content: space-between;
+}
+#tem{
+    text-align: right;
+}
+
+button.bleu{
+    background-color: rgb(107, 107, 235);
+}
+*{
+    flex-basis: 100%;
+}
+
+@media screen and (max-width:525px)   {
+
+    .do{
+display: block;
+justify-content: space-between;
+}
+
+footer{
+    background-color:rgb(155, 155, 151);
+    margin-top: 300px;
+}
+}
