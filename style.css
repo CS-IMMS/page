@@ -1,3 +1,9 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .mic{
     background-image: url(micro.jpeg) ;
     background-repeat: no-repeat;
@@ -23,7 +29,8 @@ background-color: rgb(155, 155, 151);
 }
 footer{
     background-color:rgb(155, 155, 151);
-    margin-top: 500px;
+    margin-top: 300px;
+    position: relative;
 }
 .droite{
     text-align: left;
@@ -53,6 +60,21 @@ justify-content: space-between;
 
 footer{
     background-color:rgb(155, 155, 151);
-    margin-top: 300px;
+    margin-top: 500px;
 }
+}
+@media screen and (max-width:1300px)   {
+
+
+    footer{
+        background-color:rgb(155, 155, 151);
+        margin-top: 150px;
+        
+    }
+    #tem{
+        text-align: right;
+margin-right: 100px;
+        
+    }
+    
 }
